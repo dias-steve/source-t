@@ -1,0 +1,23 @@
+@import '../../styles/_variables';
+.nav__global_container{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    align-items: center;
+
+    border-bottom: 1px$light-gray solid;
+    height: 70px;
+    .nav__logo{
+        width: 40px;
+        padding: 5px 10px;
+    }
+
+    .nav__user_info_container{
+        display: flex;
+        align-items: center;
+        height: 100%;
+        border-left: 1px$light-gray solid; 
+        
+    }
+
+}

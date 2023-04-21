@@ -1,0 +1,45 @@
+@import '../../styles/_variables';
+.taglist_btn{
+
+    border: 2px solid $light-gray;
+    background-color: $light-gray;
+    border-radius:$border-radius-m;
+    height: 40px;
+    padding: 5px 10px;
+    color: $secondary-color;
+
+    font-size: 1rem;
+    font-weight: 500;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: 300ms ease-in;
+    cursor: pointer;
+    &:hover{
+        background-color: #ffffff57;
+    }
+    
+    &.withIcon{
+        background-color: #ffffff02 ;
+        &:hover{
+            background-color: #ffffff1d;
+        }
+    }
+
+
+
+    img{
+        width: 20px;
+        margin-right: 5px;
+    }
+}
+
+.tagList__global_container{
+    display: flex;
+
+    & > *{
+        margin: 0 5px;
+    }
+}

@@ -1,0 +1,38 @@
+@import '../../styles/_variables';
+
+.user_info__container{
+    display: flex;
+    color: $secondary-color;
+    align-items: center;
+    margin: 0 10px;
+    padding: 0 10px 0 10px ;
+    background-color: transparent;
+    border-radius: 10px;
+
+    cursor: pointer;
+    transition: 300ms ease-in;
+    &:hover{
+        background-color: $light-gray;
+    }
+
+    .user__img{
+        height: 40px;
+        width: 40px;
+        object-fit: cover;
+        border-radius: 100%;
+        margin: 5px;
+
+    }
+    .user__name{
+        margin: 5px;
+    }
+    .user__number{
+        background-color: $primary-color;
+        padding: 4px 5px;
+        margin: 5px;
+        border-radius: 3px;
+        font-size: 0.7rem;
+
+
+    }
+}

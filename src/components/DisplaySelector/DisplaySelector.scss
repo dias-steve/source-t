@@ -1,0 +1,38 @@
+@import '../../styles/_variables';
+
+.display_slector__global_container{
+    border-radius: $border-radius-m;
+    overflow: hidden;
+    display: flex;
+}
+.display_selector_btn{
+    border: none;
+    height: 40px;
+
+    background-color: $light-gray;
+
+    opacity: 0.5;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    transition: 300ms;
+    img{
+        width: 20px;
+
+    }
+
+    cursor: pointer;
+
+
+    &:hover{
+        background-color: $primary-color-dark;
+        opacity: 1;
+    }
+
+    &.active{
+        opacity: 1;
+    }
+
+}

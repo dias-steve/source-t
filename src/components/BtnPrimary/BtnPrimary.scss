@@ -1,0 +1,26 @@
+@import '../../styles/_variables';
+
+.btn_primary__global_container{
+    border: none;
+    background-color: $primary-color;
+    padding: 10px 20px;
+    border-radius:$border-radius-m;
+    color: $secondary-color;
+
+    transition: 300ms ease-in;
+    cursor: pointer;
+    height: 40px;
+
+    &:hover{
+        background-color: $primary-color-dark;
+    }
+
+    &.red{
+        background-color: #ed62723a;
+        border: 2px $red solid !important;
+        color: $red;
+        &:hover{
+            background-color: #ed627203;
+        }
+    }
+}

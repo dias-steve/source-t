@@ -1,0 +1,7 @@
+.filter__global_container{
+    display: flex;
+    & > * {
+        margin: 0 5px ;
+    }
+
+}

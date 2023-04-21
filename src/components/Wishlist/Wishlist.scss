@@ -1,0 +1,16 @@
+@import '../../styles/_variables';
+.wishlist__global_container{
+    padding: 0  $padding-side;
+
+    .wishlist__header_container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .wishlist_title{
+            color: $secondary-color;
+            font-size: clamp(30px, 3vw, 50px);
+        }
+    }
+
+}

@@ -1,0 +1,32 @@
+@import '../../styles/_variables';
+.btn_back__global_container{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+
+    color: $secondary-color;
+    border: none;
+    border-radius: 5px;
+
+    transition: 300ms ease-in;
+    align-items: center;
+    cursor: pointer;
+    &:hover{
+        background-color: $light-gray;
+    }
+    padding: 5px 10px 5px 5px;
+    
+    .btn_back__label{
+        font-size: 0.8rem;
+        line-height: 0.8rem;
+        margin-bottom: 3px;
+
+    }
+
+    .btn_back__icon{
+        width: 20px;
+        margin-right: 5px;
+    }
+
+  
+}
