@@ -13,11 +13,15 @@
 
 
     cursor: pointer;
+    img{
+  
+        transition: 300ms ease-in-out;
+    }
 
     &:hover{
         img{
             scale: 1.1;
-            transition: 300ms ease-in-out;
+          
         }
     }
 }
